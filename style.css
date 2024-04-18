@@ -7,17 +7,24 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0%;
+    background-image: url('./img/bsg.background.img..jpg');
+    object-fit: cover;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     padding: 20px;
-    height: 140px;
+    height: 80px;
     width: 100%;
     /* position: fixed; */
-    background-color:rgb(233, 209, 255);
+    background-color: rgba(255,255,255,0.8);
+    /* background-image:url('./img/bsg.nav.back.img.jpg'); */
+    backdrop-filter: blur(9px);
+}
+.container{
     position: sticky;
+    top: 0;
 }
 
 nav {
@@ -58,6 +65,11 @@ nav ul li a:hover {
 .log a{
     background-color:lightpink;
 }
+/* .home img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  } */
 
 a {
     text-decoration: none;
@@ -78,7 +90,7 @@ p {
 }
 
 .row {
-    display: flex;
+    display:flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
